@@ -8,8 +8,8 @@
 #include <UniversalTelegramBot.h>
 #include <ArduinoJson.h>
 #include "camera_pins.h"
-const char* ssid = "EASWAR MANI";
-const char* password = "easwer123";
+const char* ssid = "";
+const char* password = "";
 const int PIN_TO_SENSOR = 13; // GPIO13 pin connected to OUTPUT pin of sensor
 int pinStateCurrent   = LOW;  // current state of pin
 int pinStatePrevious  = LOW;  // previous state of pin
